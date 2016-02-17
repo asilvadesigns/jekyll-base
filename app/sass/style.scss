@@ -2,6 +2,7 @@
 
 //
 //  Settings
+//  Global variables, config switches.
 @import
     '01__settings/breakpoints',
     '01__settings/colors',
@@ -11,6 +12,7 @@
 
 //
 //  Tools
+//  Default mixins and functions.
 @import
     '02__tools/function/color',
     '02__tools/function/math',
@@ -21,11 +23,13 @@
 
 //
 //  Generic
+//  Ground-zero styles (Normalize.css, resets, box-sizing).
 @import
     '03__generic/reset';
 
 //
 //  Base
+//  Unclassed HTML elements (type selectors).
 @import
     '04__base/outlined-iconset',
     '04__base/syntax',
@@ -33,20 +37,24 @@
 
 //
 //  Objects
+//  Cosmetic-free design patterns.
 //  @import
 //      '05__objects/...',
 
 //
 //  Components
+//  Designed components, chunks of UI.
 //  @import
 //      '06__components/...';
 
 //
 //  Trumps
+//  Helpers and overrides.
 //  @import
 //      '07__trumps/...';
 
 //
 //  Shame
+//  Yup.
 //  @import
 //      '08__shame/...';
