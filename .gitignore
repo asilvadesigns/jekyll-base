@@ -2,5 +2,4 @@
 *.swp
 .jekyll-metadata
 .sass-cache
-_site
 node_modules/
